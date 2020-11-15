@@ -7,7 +7,7 @@ import {HttpClient} from "@angular/common/http"
   providedIn: 'root'
 })
 export class DataService {
-  textMessages = '../assets/message_10.json';
+  textMessages = '/src/assets/message_10.json';
 
   constructor(private http: HttpClient) { }
   getText() {
