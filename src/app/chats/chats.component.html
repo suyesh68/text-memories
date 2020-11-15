@@ -1,0 +1,17 @@
+<div class="container-fluid">
+    <span class="head1">My Motu</span> <span class="head2"> Your Motu</span>
+<div class="row chatBox">
+    <div class="boxHead"></div>
+    <div class="col-12">
+        <div class="height" *ngFor = "let message of textArray">
+            <div [ngClass]= "{'ayshaText':message.sender_name === 'Aysha Ali',
+                                'suyeshText':message.sender_name === 'Suyesh Sharma' }">
+{{message.content}} 
+            </div>
+            
+        </div>
+        
+    </div> 
+    <input class="btn" type="text">  
+</div>
+</div>

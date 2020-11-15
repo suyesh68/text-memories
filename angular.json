@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "talk-memories"
+    }
+  },
+  "defaultProject": "talk-memories",
+  "cli": {
+    "analytics": "0595a260-9e0b-4e83-a89e-1f6c450c89aa"
+  }
 }
