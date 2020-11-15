@@ -1,12 +1,12 @@
-<!-- <div *ngIf="showChatsFlag" class="inputBox">
+<div *ngIf="showChatsFlag" class="inputBox">
   <div class="introText">
     <p>Hello..! <span class="homeName">Aysha</span> welcome,</p>
     <p>Write the passcode to see the Surprise</p>
  
   </div>
   <input type="text"  (keyup)="showChats($event.target.value)"> 
-</div> -->
-<div class="container-fluid" *ngIf="showChatsFlag">
+</div>
+<div class="container-fluid" *ngIf="!showChatsFlag">
   <div class="row">
     <div class="col-3 col-sm-0 col-xs-0"></div>
     <div class="col-6 my-5">

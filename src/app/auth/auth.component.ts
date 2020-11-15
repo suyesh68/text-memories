@@ -14,7 +14,7 @@ export class AuthComponent implements OnInit {
   ngOnInit(): void {
   }
   showChats(value){
-    if(value === 'suyeshaysha0809') {
+    if(value === 'ayshaislife') {
 this.showChatsFlag = false;
     }
 }
